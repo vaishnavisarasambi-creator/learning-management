@@ -36,8 +36,14 @@ export default function SubjectsPage() {
 
   if (error) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-red-600">{error}</div>
+      <div className="min-h-screen bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="text-center py-12">
+            <h1 className="text-3xl font-bold text-slate-900 mb-4">Courses Unavailable</h1>
+            <p className="text-slate-600 mb-6">{error}</p>
+            <p className="text-sm text-slate-500">Please check back later or contact support.</p>
+          </div>
+        </div>
       </div>
     );
   }
