@@ -8,6 +8,10 @@ async function main() {
 
   const updates = [
     {
+      slug: 'react-development',
+      thumbnail: 'https://img.youtube.com/vi/F4zr1aMevB4/maxresdefault.jpg',
+    },
+    {
       slug: 'java-programming-basics',
       thumbnail: 'https://img.youtube.com/vi/eIrMbAQSU34/maxresdefault.jpg',
     },
